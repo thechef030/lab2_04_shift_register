@@ -1,5 +1,8 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": ["src/shift_register4.v",
+  "src/input_frontend.v",
+  "src/lab2_shift_register.v"
+],
+  "testbench": "sim/tb_shift_register4.sv",
+  "simulation_top": "tb_shift_register4"
 }
